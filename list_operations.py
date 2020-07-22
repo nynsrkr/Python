@@ -41,4 +41,5 @@ hello=names.pop(0)
 print('My Name is'+hello.upper())
 
 names.remove('Ram') #remove item from list when position not known
+
 print(names)
