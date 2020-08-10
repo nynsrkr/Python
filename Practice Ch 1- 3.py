@@ -82,7 +82,7 @@ print(cars)
 #store and print or run methods on popped variables
 remover=cars.pop()
 print(remover.upper())
-
+print(remover.lower())
 #store and print or run methods on specific popped variable
 remover2=cars.pop(2)
 print("This variable was removed"+remover2)
