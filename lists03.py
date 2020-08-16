@@ -1,12 +1,21 @@
 #Store a message in a variable, and print that message Then change the value of your variable to a new message, and print the new message
+message="How are you"
+print(message)
+message="This is the new message"
+print(message)
 
 #2-3. Personal Message: Store a person’s name in a variable, and print a message to that person Your message should be simple, such as, “Hello Eric,would you like to learn some Python today?”
+name="nayan"
+print(message+" How are you today "+name)
 
 #2-4. Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase
+print(name.title())
+print(name.upper())
 
 #2-7. Stripping Names: Store a person’s name, and include some whitespace
 #characters at the beginning and end of the name Make sure you use each
 #character combination, "\t" and "\n", at least once
+print("\t\nHello World")
 
 #Print the name once, so the whitespace around the name is displayed
 #Then print the name using each of the three stripping functions, lstrip(),
