@@ -48,7 +48,6 @@ cars.append('hyundai')
 
 print(cars)
 
-
 #adding names to empty list
 names=[]
 
@@ -74,8 +73,36 @@ print(remover)
 hello=names.pop(0)
 print('My Name is'+hello.upper())
 
+#use popped element seperately
+
 #remove item from list when position not known
 names.remove('Ram') 
 print(names)
 
+#sort list
+names.append('Nayan')
+names.append('Ram')
+names.append('Rahul')
+names.append('Tom')
+names.sort() #this is permanent 
+print(names)
+
+#sort list in reverse
+names.sort(reverse=True)
+print(names)
+names.sort()
+print(names)
+
+#tempory sorting of list
+print(sorted(names, reverse=True))
+
+#reverse a list
+cars.reverse() #this is permanent
+
+# find the length of a list
+print(len(cars))
+
+#example 2
+hello=len(cars)
+print(hello)
 
