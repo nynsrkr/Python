@@ -51,7 +51,7 @@ print(cars)
 #adding names to empty list
 names=[]
 
-names.append('Nayan')
+names.append('Nayan')  #this uses append method
 names.append('Ram')
 names.append('Rahul')
 names.append('Tom')
@@ -79,7 +79,7 @@ print('My Name is'+hello.upper())
 names.remove('Ram') 
 print(names)
 
-#sort list
+#method sort list
 names.append('Nayan')
 names.append('Ram')
 names.append('Rahul')
