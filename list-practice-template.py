@@ -42,8 +42,9 @@
 
 #sort list in reverse
 
-#tempory sorting of list
+#temporary sorting of list
 
 #reverse a list
 
 #find the length of a list
+
